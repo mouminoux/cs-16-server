@@ -1,9 +1,9 @@
 FROM kriansa/cs-16:latest
 
 # Runtime settings
-ENV RCON_PASSWORD=""
+ENV RCON_PASSWORD="mirakl"
 ENV SV_PASSWORD=""
-ENV MAXPLAYERS="12"
+ENV MAXPLAYERS="32"
 ENV MAPNAME="de_dust2"
 
 # Copy the files

@@ -18,7 +18,7 @@ services:
       - "27015:27015"
       - "27015:27015/udp"
     environment:
-      - RCON_PASSWORD=""
+      - RCON_PASSWORD="mirakl"
       - SV_PASSWORD=""
-      - MAXPLAYERS="12"
+      - MAXPLAYERS="32"
       - MAPNAME="de_dust2"
