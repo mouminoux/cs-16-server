@@ -4,7 +4,7 @@ FROM kriansa/cs-16:latest
 ENV RCON_PASSWORD=""
 ENV SV_PASSWORD=""
 ENV MAXPLAYERS="12"
-ENV MAPNAME="fy_pool_day"
+ENV MAPNAME="de_dust2"
 
 # Copy the files
 COPY --chown=steam:steam cstrike/maps cstrike_downloads/maps

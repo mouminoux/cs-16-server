@@ -21,4 +21,4 @@ services:
       - RCON_PASSWORD=""
       - SV_PASSWORD=""
       - MAXPLAYERS="12"
-      - MAPNAME="fy_pool_day"
+      - MAPNAME="de_dust2"
