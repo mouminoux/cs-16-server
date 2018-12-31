@@ -1,10 +1,10 @@
-FROM kriansa/cs-16:latest
+FROM moum/cs-16:latest
 
 # Runtime settings
 ENV RCON_PASSWORD="mirakl"
 ENV SV_PASSWORD=""
 ENV MAXPLAYERS="32"
-ENV MAPNAME="de_dust2"
+ENV MAPNAME="fy_pool_day"
 
 # Copy the files
 COPY --chown=steam:steam cstrike/maps cstrike_downloads/maps

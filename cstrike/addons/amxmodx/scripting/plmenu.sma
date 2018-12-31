@@ -665,7 +665,7 @@ public actionTeamMenu(id, key)
 			} else {
 				new limit_setting = get_cvar_num("mp_limitteams")
 				
-				set_cvar_num("mp_limitteams", 0)
+				set_cvar_num("mp_limitteams", 32)
 				engclient_cmd(player, "jointeam", g_CSTeamNumbers[g_menuOption[id] % 2])
 				engclient_cmd(player, "joinclass", "1")
 				set_cvar_num("mp_limitteams", limit_setting)
