@@ -14,6 +14,9 @@ services:
       - ./cstrike/server.cfg:/home/steam/hlds/cstrike/server.cfg:ro
       - ./cstrike/motd.html:/home/steam/hlds/cstrike/motd.html:ro
       - ./cstrike/maps:/home/steam/hlds/cstrike_downloads/maps:ro
+      - ./cstrike/sprites:/home/steam/hlds/cstrike_downloads/sprites:ro
+      - ./cstrike/sound:/home/steam/hlds/cstrike_downloads/sound:ro
+      - ./cstrike/models:/home/steam/hlds/cstrike_downloads/models:ro
     ports:
       - "27015:27015"
       - "27015:27015/udp"
